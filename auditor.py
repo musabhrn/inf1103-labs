@@ -14,5 +14,9 @@ while True:
 
     inventory += stock_quantity
 
+    if inventory > 500:
+        print("Alert! Inventory total exceeds 500 units.")
+        break
+
     
 print(f"Total Units Processed: {inventory}")    

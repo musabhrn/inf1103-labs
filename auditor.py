@@ -9,4 +9,10 @@ while True:
     if not user_input.isdigit():
         print("Error. Invalid input. Please enter a non-negative number.")
         continue
+
+    stock_quantity = int(user_input)
+
+    inventory += stock_quantity
+
     
+print(f"Total Units Processed: {inventory}")    

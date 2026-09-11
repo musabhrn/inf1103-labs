@@ -5,3 +5,8 @@ while True:
 
     if user_input.lower() == "quit":
         break
+
+    if not user_input.isdigit():
+        print("Error. Invalid input. Please enter a non-negative number.")
+        continue
+    
